@@ -7,6 +7,10 @@ import shlex
 import platform
 
 dir_repos = "repositories"
+dir_tmp = "tmp"
+
+os.environ['COMMANDLINE_ARGS'] = "--listen --allow-code --share"
+
 python = sys.executable
 git = os.environ.get('GIT', "git")
 index_url = os.environ.get('INDEX_URL', "")

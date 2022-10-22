@@ -24,3 +24,5 @@ torchdiffeq
 kornia
 lark
 inflection
+functorch
+nltk==3.7

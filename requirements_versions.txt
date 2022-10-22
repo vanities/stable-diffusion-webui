@@ -23,3 +23,5 @@ torchdiffeq==0.2.3
 kornia==0.6.7
 lark==1.1.2
 inflection==0.5.1
+functorch==0.2.1
+nltk==3.7

@@ -5,6 +5,7 @@
 #################################################
 # Read variables from webui-user.sh
 # shellcheck source=/dev/null
+export GRADIO_SERVER_NAME="0.0.0.0"
 if [[ -f webui-user.sh ]]
 then
     source ./webui-user.sh
